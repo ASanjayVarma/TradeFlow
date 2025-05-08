@@ -1,0 +1,37 @@
+[
+  {
+    "id": 2,
+    "name": "Computer",
+    "price": 1199,
+    "imgUrl": "/imgs/computer.jpg",
+    "category": "Tech"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "price": 799.99,
+    "imgUrl": "/imgs/smartphone.jpg",
+    "category": "Tech"
+  },
+  {
+    "id": 12,
+    "name": "Desk Chair",
+    "price": 199.99,
+    "imgUrl": "/imgs/desk_chair.jpg",
+    "category": "Furniture"
+  },
+  {
+    "id": 8,
+    "name": "Table Lamp",
+    "price": 35.49,
+    "imgUrl": "/imgs/table_lamp.jpg",
+    "category": "Furniture"
+  },
+  {
+    "id": 14,
+    "name": "Vacuum Cleaner",
+    "price": 199.99,
+    "imgUrl": "/imgs/vacuum_cleaner.jpg",
+    "category": "Appliances"
+  }
+]

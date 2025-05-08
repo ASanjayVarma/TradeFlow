@@ -1,0 +1,30 @@
+/* Typing and emerging effect for recently bought message */
+.recently-bought-message {
+  padding: 20px;
+  text-align: center;
+  animation: typeAndAppear 3s forwards;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+
+@keyframes typeAndAppear {
+  0% {
+    transform: translateY(20px);  /* Starts from bottom */
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(0);  /* Moves up to its position */
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.05);  /* Slightly scales up */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

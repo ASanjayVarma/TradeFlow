@@ -1,0 +1,79 @@
+/* Footer Styles */
+.footer {
+  position: relative;
+  padding: 10px;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Arial', sans-serif; /* Same font used for Recently Bought items */
+}
+
+.footer-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;  /* Start with no width */
+  animation: typing 6s steps(70) 1s forwards;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;  /* Add some space below the main text */
+}
+
+/* Typewriter effect */
+@keyframes typing {
+  to {
+    width: 100%;
+  }
+}
+
+/* Glitch Effect */
+.glitch-effect {
+  position: relative;
+  color: #0ff;
+  font-weight: bold;
+  animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 1px 1px 0 red, -1px -1px 0 cyan, 1px -1px 0 yellow;
+    transform: translate(0);
+  }
+  25% {
+    text-shadow: -1px -1px 0 red, 1px 1px 0 cyan, -1px 1px 0 yellow;
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    text-shadow: 1px 1px 0 red, -1px -1px 0 cyan, 1px -1px 0 yellow;
+    transform: translate(0);
+  }
+  75% {
+    text-shadow: -1px -1px 0 red, 1px 1px 0 cyan, -1px 1px 0 yellow;
+    transform: translate(2px, -2px);
+  }
+  100% {
+    text-shadow: 1px 1px 0 red, -1px -1px 0 cyan, 1px -1px 0 yellow;
+    transform: translate(0);
+  }
+}
+
+/* Footer subtext (smaller and more muted text) */
+.footer-subtext {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.footer-subtext p {
+  margin: 5px 0;
+}
+.footer-text {
+  display: inline-block;   /* Keeps the text in a line */
+  width: 100%;             /* Ensures it takes up full space */
+  white-space: nowrap;     /* Prevents wrapping */
+  overflow: hidden;        /* Hides any overflowing text */
+  text-overflow: ellipsis; /* Optionally, you can add an ellipsis when text overflows */
+  padding-right: 20px;     /* Adds a little space if you need */
+  transition: width 0.3s ease-in-out;  /* Smooth transition for width change */
+}

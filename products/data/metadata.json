@@ -1,0 +1,30 @@
+{
+  "bestselling": [
+    {
+      "category": "Accessories",
+      "product": "backpack"
+    },
+    {
+      "category": "Accessories",
+      "product": "watch"
+    },
+    {
+      "category": "clothing",
+      "product": "tshirt"
+    }
+  ],
+  "editors_choice": [
+    {
+      "category": "Books",
+      "product": "Book"
+    },
+    {
+      "category": "furniture",
+      "product": "desk_chair"
+    },
+    {
+      "category": "appliances",
+      "product": "microwave"
+    }
+  ]
+}

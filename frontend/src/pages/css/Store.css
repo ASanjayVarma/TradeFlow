@@ -1,0 +1,11 @@
+.store-item {
+  transition: transform 0.3s ease-out; /* Increase duration and use ease-out for smoother shrinking */
+}
+
+.store-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+h2 {
+  font-size: 1.75rem;
+}

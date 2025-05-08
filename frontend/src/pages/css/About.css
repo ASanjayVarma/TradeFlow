@@ -1,0 +1,86 @@
+/* Main container for the About page */
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #003366;  /* Dark Blue text color */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;  /* Dark Blue text color */
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #003366;  /* Dark Blue text color */
+  }
+  
+  /* Container for team members */
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Individual team member */
+  .team-member {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for team members */
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member-image-container {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+  }
+  
+  .team-member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .team-member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #003366;  /* Dark Blue text color */
+  }
+  
+  .team-member-title {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .team-member-bio {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+  }
+  
