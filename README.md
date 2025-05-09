@@ -2,7 +2,7 @@
 
 A full-stack web application that allows university students and teachers to **lend, rent, or borrow items** at minimal cost. This initiative promotes sustainability and community sharing while making essential items more accessible within campus.
 
-🔗 **[Live Demo Explanation]((https://mahindraecolecentrale-my.sharepoint.com/:f:/g/personal/se22uari006_mahindrauniversity_edu_in/ElIWa9wMmtJJgPpHeBaARPABBI9MolYC6Dfmj6-cQnPeGw?e=5qpjRO))**
+🔗 **[Live Demo Explanation](https://youtu.be/5PxjbMdN810)**
 
 ---
 
