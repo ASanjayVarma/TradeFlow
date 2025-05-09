@@ -25,6 +25,10 @@
     {
       "category": "appliances",
       "product": "microwave"
+    },
+    {
+      "category": "appliances",
+      "product": "coffee_maker"
     }
   ]
 }

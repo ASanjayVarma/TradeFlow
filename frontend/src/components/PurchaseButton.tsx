@@ -8,11 +8,22 @@ const PurchaseButton = () => {
   const { cartItems, clearCart } = useShoppingCart();
   const { addRecentlyBoughtItems } = useRecentlyBought();
 
+  // const handlePurchase = () => {
+  //   addRecentlyBoughtItems(cartItems); // Add items before clearing
+  //   clearCart();
+  //   setShowModal(true);
+  // };
   const handlePurchase = () => {
-    addRecentlyBoughtItems(cartItems); // Add items before clearing
-    clearCart();
-    setShowModal(true);
+    addRecentlyBoughtItems(cartItems);
+    // clearCart();
+
+    // setShowModal(true); ❌ No need to show success modal
+  
+    // Open PayPal in a new tab
+    window.open("https://www.paypal.com/paypalme/sanjayvarmaaddada", "_blank");
   };
+  
+  
 
   const handleClose = () => setShowModal(false);
 
