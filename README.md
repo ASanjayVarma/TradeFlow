@@ -1,6 +1,6 @@
 # 🎓 Point-Based Lending System for University Students & Teachers
 
-A full-stack web application that allows university students and teachers to **lend, rent, or borrow items** at minimal cost,. This initiative promotes sustainability and community sharing while making essential items more accessible within campus.
+A full-stack web application that allows university students and teachers to **lend, rent, or borrow items** at minimal cost. This initiative promotes sustainability and community sharing while making essential items more accessible within campus.
 
 🔗 **[Live Demo](https://your-demo-link.com)**
 
