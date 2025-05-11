@@ -26,7 +26,6 @@ This system is designed to help users within a university environment lend and b
 
 ### 🔐 Auth Service
 - Java, Spring Boot
-- MongoDB
 - JWT Authentication
 
 ### 🛠️ Backend API
